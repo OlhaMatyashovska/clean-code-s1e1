@@ -13,7 +13,7 @@ body {
 .photo img {
   width: 100%;
 }
-.photo .link {
+.photo .link__item {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
@@ -28,7 +28,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task__item {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -124,15 +124,15 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-li > button.delete:hover {
+li > button.delete__action:hover {
   color: #cf2323;
 }
-button.delete img {
+button.delete__action img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete__action img:hover {
   transform: rotateZ(0);
 }
 
